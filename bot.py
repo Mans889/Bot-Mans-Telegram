@@ -24,7 +24,7 @@ from telegram.ext import (
 # CONFIG
 # =========================================================
 
-BOT_TOKEN = os.getenv("8989769099:AAGiebZZPT653ouKonXc6GK6WbUG2ChmLAE", "").strip()
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DOWNLOAD_DIR = os.path.join(BASE_DIR, "downloads")
